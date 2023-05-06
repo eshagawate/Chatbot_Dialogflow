@@ -1,0 +1,141 @@
+{
+  "id": "c072afd1-390d-4bf9-9632-f3b77fe9a9e2",
+  "parentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "rootParentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "name": "Uttar Pradesh",
+  "auto": true,
+  "contexts": [
+    "Sche-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Sche.Sche-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dd24058f-ffaa-47b3-b57e-05b5c7d567ae",
+          "name": "states",
+          "required": false,
+          "dataType": "@States",
+          "value": "$states",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "eb255309-602e-49db-a09e-75715ac4386e",
+          "name": "states1",
+          "required": false,
+          "dataType": "@States",
+          "value": "$states1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5fe5f5b0-31d6-455b-9bd8-9c78982d5283",
+          "name": "soils",
+          "required": true,
+          "dataType": "@Soils",
+          "value": "$soils",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Soil in UP"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cc6f4e0c-6932-425a-939a-d25d7272f31c",
+          "name": "Weather",
+          "required": true,
+          "dataType": "@Weather",
+          "value": "$Weather",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Weather in UP"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d53831bb-0cf8-494b-9e98-9e8b0ccbd52a",
+          "name": "Last_Irrigation",
+          "required": true,
+          "dataType": "@Last_Irrigation",
+          "value": "$Last_Irrigation",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Irrigatation done at farm"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "814c3357-fc19-465a-98da-734c000ac0fd",
+          "name": "UttarPradeshSchemes",
+          "required": true,
+          "dataType": "@UttarPradeshSchemes",
+          "value": "$UttarPradeshSchemes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Schemes in Uttar Pradesh:\n1. Scheme for Promoting The Use of Hybrid Seeds\n2. Pest Control / Disease Control Through Different Situation Resources\n3. Use of Information Technology for The Development of Agriculture\n4. Scheme for Computerization of Agricultural Statistics and Management System\n5. Uttar Pradesh Water Sector Restructuring Project Phase II"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

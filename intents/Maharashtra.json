@@ -1,0 +1,149 @@
+{
+  "id": "3a2cec27-267b-4d62-9ee2-3f623d5b77a5",
+  "parentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "rootParentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "name": "Maharashtra",
+  "auto": true,
+  "contexts": [
+    "Sche-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Sche.Sche-custom",
+      "affectedContexts": [
+        {
+          "name": "Maharashtra-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "02ebceb1-b375-4acc-8fb5-2efcb5961fc1",
+          "name": "states",
+          "required": false,
+          "dataType": "@States",
+          "value": "$states",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f7cf3d22-e12f-4258-9f19-19b7c6f698be",
+          "name": "states1",
+          "required": false,
+          "dataType": "@States",
+          "value": "$states1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "759c31eb-04a9-43fa-8206-b1af903b7b26",
+          "name": "soils",
+          "required": true,
+          "dataType": "@Soils",
+          "value": "$soils",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Soil in Maha"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b1d284ff-77c4-410d-ae60-ed43f5906ebb",
+          "name": "Weather",
+          "required": true,
+          "dataType": "@Weather",
+          "value": "$Weather",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Weather inmala"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b36accd5-0dd7-42f2-97d8-b699712a302e",
+          "name": "last_irrigation",
+          "required": true,
+          "dataType": "@Last_Irrigation",
+          "value": "$last_irrigation",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Irrigation done in Mahhs"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9c7f330c-1b7d-48e9-a703-72a6dfe5cc92",
+          "name": "MaharashtraSchemes",
+          "required": true,
+          "dataType": "@MaharashtraSchemes",
+          "value": "$MaharashtraSchemes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Schemes in Maharashtra are \n1. Agriculture Infrastructure Fund.\n2. Pradhan Mantri Fasal Bima Yojana\n3. Pradhanmantri Krishi Sinchayee Yojana\n4. Online Pesticide Registration"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank You"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

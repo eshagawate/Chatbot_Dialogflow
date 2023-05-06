@@ -1,0 +1,26 @@
+[
+  {
+    "value": "Today",
+    "synonyms": [
+      "Now"
+    ]
+  },
+  {
+    "value": "2 days ago",
+    "synonyms": [
+      "2 days ago"
+    ]
+  },
+  {
+    "value": "Not done",
+    "synonyms": [
+      "Not done"
+    ]
+  },
+  {
+    "value": "A month ago",
+    "synonyms": [
+      "A month ago"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "7b0dfc2f-f55f-4ce4-9aca-52cb1fd0bcac",
+  "name": "Last_Irrigation",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

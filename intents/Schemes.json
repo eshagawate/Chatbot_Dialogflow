@@ -1,0 +1,36 @@
+{
+  "id": "3f099ddd-67b8-4b7f-8826-f4cb6a3a0f2c",
+  "parentId": "3a2cec27-267b-4d62-9ee2-3f623d5b77a5",
+  "rootParentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "name": "Schemes",
+  "auto": true,
+  "contexts": [
+    "Maharashtra-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Sche.Sche-custom.Maharashtra-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "486174c6-6fed-42f0-8488-c7004fe8b40c",
+  "name": "Soils",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

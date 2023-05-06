@@ -1,0 +1,173 @@
+[
+  {
+    "id": "0557adda-5d0d-48a7-92b6-05916f149d45",
+    "data": [
+      {
+        "text": "Schemes",
+        "meta": "@KerelaSchemes",
+        "alias": "KerelaSchemes",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Kerela",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "31987e9d-368a-4d62-be4b-298190edbded",
+    "data": [
+      {
+        "text": "When ",
+        "userDefined": false
+      },
+      {
+        "text": "irrigation",
+        "meta": "@Last_Irrigation",
+        "alias": "Last_Irrigation",
+        "userDefined": true
+      },
+      {
+        "text": " done in your farm?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c7f75b2f-91d5-4ee2-9602-455ea06b0355",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "weather",
+        "meta": "@Weather",
+        "alias": "Weather",
+        "userDefined": true
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f8b30f77-f745-4c82-ad4b-db6864814806",
+    "data": [
+      {
+        "text": "Which ",
+        "userDefined": false
+      },
+      {
+        "text": "soil",
+        "meta": "@Soils",
+        "alias": "soils",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "kerela",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      },
+      {
+        "text": " region?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6bc4b938-aeb2-4dce-b9d1-663866642228",
+    "data": [
+      {
+        "text": "region is ",
+        "userDefined": false
+      },
+      {
+        "text": "kerela",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "db9c33cd-1743-4108-baf1-fe0619ba6b59",
+    "data": [
+      {
+        "text": "State",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "kerela",
+        "meta": "@States",
+        "alias": "states1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c565f765-3d2b-4b09-bb7d-b5bb54980a62",
+    "data": [
+      {
+        "text": "Kerela",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

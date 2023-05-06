@@ -1,0 +1,183 @@
+[
+  {
+    "id": "2d74b2d6-2769-4058-bbaf-58213e0ccc55",
+    "data": [
+      {
+        "text": "Schemes",
+        "meta": "@UttarPradeshSchemes",
+        "alias": "UttarPradeshSchemes",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Uttar Pradesh",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7922021a-cf94-4161-ac42-80b98d9277d3",
+    "data": [
+      {
+        "text": "Last time ",
+        "userDefined": false
+      },
+      {
+        "text": "irrigation",
+        "meta": "@Last_Irrigation",
+        "alias": "Last_Irrigation",
+        "userDefined": true
+      },
+      {
+        "text": " Done ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a856124-e5b8-42e6-9335-6e662b3778e5",
+    "data": [
+      {
+        "text": "Weather",
+        "meta": "@Weather",
+        "alias": "Weather",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "UP",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f8989524-249f-4fa3-9fb7-a9477a6f4ff2",
+    "data": [
+      {
+        "text": "Which ",
+        "userDefined": false
+      },
+      {
+        "text": "soil",
+        "meta": "@Soils",
+        "alias": "soils",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "UP",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "743685df-bd16-41e1-9880-cb355f47c7cb",
+    "data": [
+      {
+        "text": "State",
+        "meta": "@States",
+        "alias": "states1",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "UP",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad3cf401-f6ef-4e0b-b314-308ed10f3548",
+    "data": [
+      {
+        "text": "Uttar Pradesh",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "state",
+        "meta": "@States",
+        "alias": "states1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6bd6706c-e7e3-46d3-b3e5-89962c58c6a9",
+    "data": [
+      {
+        "text": "UP",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "state",
+        "meta": "@States",
+        "alias": "states1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

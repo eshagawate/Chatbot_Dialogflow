@@ -1,0 +1,139 @@
+{
+  "id": "36fa6a73-d8cd-45ca-8b7b-8891cdebbc04",
+  "parentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "rootParentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "name": "Punjab",
+  "auto": true,
+  "contexts": [
+    "Sche-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Sche.Sche-custom",
+      "affectedContexts": [
+        {
+          "name": "Punjab-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b3b78571-d41c-4958-a24b-8a1beb13bf6d",
+          "name": "states",
+          "required": false,
+          "dataType": "@States",
+          "value": "$states",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "40463586-415d-4f06-8698-6a62d5f7ba7c",
+          "name": "Soils",
+          "required": true,
+          "dataType": "@Soils",
+          "value": "$Soils",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter the soil in your region"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "78fe27fb-3286-47cd-883d-45494400f362",
+          "name": "Weather",
+          "required": true,
+          "dataType": "@Weather",
+          "value": "$Weather",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How\u0027s the weather in Punjab?"
+            },
+            {
+              "lang": "en",
+              "value": "What is the weather like in Punjab ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "35d6c898-81b7-4788-91c5-0b91469171cd",
+          "name": "Last_Irrigation",
+          "required": true,
+          "dataType": "@Last_Irrigation",
+          "value": "$Last_Irrigation",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "When was the last irrigation done at your farm?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3a32375a-228e-4980-85a1-c990598cd920",
+          "name": "PunjabSchemes",
+          "required": true,
+          "dataType": "@PunjabSchemes",
+          "value": "$PunjabSchemes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Schemes in Punjab are \n1. Agriculture Technology Management Agency ATMA - Extension Functionaries\n2. Agriculture Technology Management Agency ATMA- Farmers\n3. Crop Debt Relief Scheme\n4. National Food Security Mission\n5. National Mission on Edible Oils Oilseeds\n6. RKVY-RAFTAAR\n7. Sub Mission on Agriculture Mechanization\n8. Sub-Mission on Seeds and Planting Material"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank You"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

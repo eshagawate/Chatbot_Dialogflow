@@ -1,0 +1,134 @@
+[
+  {
+    "id": "df9b984f-e0e1-49d6-8180-bbcdc348c9da",
+    "data": [
+      {
+        "text": "Schemes",
+        "meta": "@MaharashtraSchemes",
+        "alias": "MaharashtraSchemes",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Maharashtra",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ccea21fa-3c87-468d-b6ac-6409ef4cf549",
+    "data": [
+      {
+        "text": "irrigation",
+        "meta": "@Last_Irrigation",
+        "alias": "last_irrigation",
+        "userDefined": false
+      },
+      {
+        "text": " done",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c69dcfb1-24a9-46f3-a5f7-18549648f1d2",
+    "data": [
+      {
+        "text": "weather",
+        "meta": "@Weather",
+        "alias": "Weather",
+        "userDefined": false
+      },
+      {
+        "text": " type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6f6706c-648d-45e1-8111-fc817a2d8d8e",
+    "data": [
+      {
+        "text": "Soil",
+        "meta": "@Soils",
+        "alias": "soils",
+        "userDefined": false
+      },
+      {
+        "text": " type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb099d59-5346-45cb-95ee-fc8fb3db717a",
+    "data": [
+      {
+        "text": "state",
+        "meta": "@States",
+        "alias": "states1",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "maharashtra",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e30bbd3-4975-4484-81ee-386a561e9354",
+    "data": [
+      {
+        "text": "Maharashtra",
+        "meta": "@States",
+        "alias": "states",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "state",
+        "meta": "@States",
+        "alias": "states1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,144 @@
+{
+  "id": "aab9e0af-ac2a-4339-81a6-698e51d9d6ef",
+  "parentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "rootParentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "name": "Assam",
+  "auto": true,
+  "contexts": [
+    "Sche-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Sche.Sche-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "be2c972e-2661-4fa2-8d57-8919715d2e86",
+          "name": "states",
+          "required": false,
+          "dataType": "@States",
+          "value": "$states",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d53beae4-9509-422b-a420-79e2d018ea33",
+          "name": "soils",
+          "required": true,
+          "dataType": "@Soils",
+          "value": "$soils",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which is the soil type ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "33fae73d-c413-4c39-aa0c-f67a4aa06c14",
+          "name": "weather",
+          "required": true,
+          "dataType": "@Weather",
+          "value": "$weather",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How is the weather"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5f20156d-0243-4268-b905-2d0ab9aae1c7",
+          "name": "last_irrigation",
+          "required": true,
+          "dataType": "@Last_Irrigation",
+          "value": "$last_irrigation",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "The farm irrigated last time ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5a894aac-050c-42e2-964f-b186294388a8",
+          "name": "states1",
+          "required": false,
+          "dataType": "@States",
+          "value": "$states1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "beb60ecf-9bb9-423f-a7b1-17dc651bfd81",
+          "name": "AssamSchemes",
+          "required": true,
+          "dataType": "@AssamSchemes",
+          "value": "$AssamSchemes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Schemes in Assam:\n1.NMAET: Sub-Mission on Agricultural Mechanization (SMAM)\n2. Rastriya Krishi Vikash Yojana (RKVY)\n3. Bringing Green Revolution to Eastern India (BGREI)\n4. Chief Minister Samagra Gramya Unnayan Yojana (CMSGUY)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank You"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

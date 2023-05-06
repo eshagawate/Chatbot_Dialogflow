@@ -1,0 +1,212 @@
+[
+  {
+    "id": "eadcb640-4c26-4286-abd1-561079e7f28e",
+    "data": [
+      {
+        "text": "Uttar Pradesh",
+        "meta": "@States",
+        "alias": "States",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4b3ebab-b304-455e-928e-72fd0a970ee2",
+    "data": [
+      {
+        "text": "Kerela",
+        "meta": "@States",
+        "alias": "States",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "28138e5f-7ff8-4f78-b2a3-0e27ce9dde64",
+    "data": [
+      {
+        "text": "Assam",
+        "meta": "@States",
+        "alias": "States",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6edd3d8-ad8a-4575-87ee-5731373f0352",
+    "data": [
+      {
+        "text": "Maharashtra",
+        "meta": "@States",
+        "alias": "States",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "11d75c23-a443-4f86-8b34-68989c05103b",
+    "data": [
+      {
+        "text": "Punjab",
+        "meta": "@States",
+        "alias": "States",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3864a2b-9b7a-430f-b529-ff5b7aee6f86",
+    "data": [
+      {
+        "text": "Tell me schemes about ",
+        "userDefined": false
+      },
+      {
+        "text": "states",
+        "meta": "@States",
+        "alias": "States",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "edfcd855-1833-42af-b25c-279c3412dee3",
+    "data": [
+      {
+        "text": "Schemes mail to ",
+        "userDefined": false
+      },
+      {
+        "text": "esha@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "945eb705-ad00-41d8-afa4-e0a628883aa7",
+    "data": [
+      {
+        "text": "Schemes related to agriculture on ",
+        "userDefined": false
+      },
+      {
+        "text": "7038377801",
+        "meta": "@sys.phone-number",
+        "alias": "phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "52081115-8104-439d-a5f4-80a03906e723",
+    "data": [
+      {
+        "text": "Agriculture related schemes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9f6a44c-aa19-42da-b4f0-5b3959ffab0f",
+    "data": [
+      {
+        "text": "Farming schemes plz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d61b6a6-2eaf-41f8-9fa0-1f5dc7a75d5d",
+    "data": [
+      {
+        "text": "Info about farming schemes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4cf3691c-f9e9-434f-b485-2dd59d06faa2",
+    "data": [
+      {
+        "text": "Information about Schemes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c812e72b-9cf9-418b-9a8d-374c4e528af8",
+    "data": [
+      {
+        "text": "Tell me some Agriculture Schemes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b2e5542-9810-49c9-a9a9-a0d2cf9a89f7",
+    "data": [
+      {
+        "text": "Tell me some Schemes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

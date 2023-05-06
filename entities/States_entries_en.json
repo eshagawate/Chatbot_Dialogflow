@@ -1,0 +1,37 @@
+[
+  {
+    "value": "Maharshtra",
+    "synonyms": [
+      "Maharshtra",
+      "MH"
+    ]
+  },
+  {
+    "value": "Punjab",
+    "synonyms": [
+      "Punjab",
+      "PB"
+    ]
+  },
+  {
+    "value": "AssamA",
+    "synonyms": [
+      "Assam",
+      "AS"
+    ]
+  },
+  {
+    "value": "Uttar Pradesh",
+    "synonyms": [
+      "Uttar Pradesh",
+      "UP"
+    ]
+  },
+  {
+    "value": "Kerela",
+    "synonyms": [
+      "Kerela",
+      "KL"
+    ]
+  }
+]

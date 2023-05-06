@@ -1,0 +1,178 @@
+{
+  "id": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "name": "Sche",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Punjab",
+          "lifespan": 5
+        },
+        {
+          "name": "Maharashtra",
+          "lifespan": 5
+        },
+        {
+          "name": "Assam",
+          "lifespan": 5
+        },
+        {
+          "name": "Kerela",
+          "lifespan": 5
+        },
+        {
+          "name": "Uttar",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e1e60743-3941-4a65-bc4f-4c0d7dfe95fa",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter mobile number"
+            },
+            {
+              "lang": "en",
+              "value": "Tell me your contact number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a3a3b105-cfcb-4bc9-a355-d76d09199e03",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your email id."
+            },
+            {
+              "lang": "en",
+              "value": "Email id, please."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "98cd5445-df72-44e3-9c4d-721fdce78b5e",
+          "name": "States",
+          "required": true,
+          "dataType": "@States",
+          "value": "$States",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter states among Maharashtra, Uttar Pradesh, Punjab, Kerela or Assam."
+            },
+            {
+              "lang": "en",
+              "value": "Which state do you belong to ?"
+            },
+            {
+              "lang": "en",
+              "value": "Choose from states, Maharashtra, Uttar Pradesh, Punjab, Kerela or Assam"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Punjab"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Kerela"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Assam"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Uttar Pradesh"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Maharashtra"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {},
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,105 @@
+{
+  "id": "253329a5-bd30-4db2-b5d4-d28a91df63aa",
+  "parentId": "36fa6a73-d8cd-45ca-8b7b-8891cdebbc04",
+  "rootParentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "name": "Punjab-Rich Message",
+  "auto": true,
+  "contexts": [
+    "Punjab-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Sche.Sche-custom.Punjab-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9ec41a48-9bd6-489b-991b-17696439f0b4",
+          "name": "Schemes",
+          "required": false,
+          "dataType": "",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Choose from the below schemes."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2d0b695f-852b-4a65-b1c5-c5d597439b04",
+          "name": "states",
+          "required": false,
+          "dataType": "@States",
+          "value": "$states",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "ATMA - Farmers"
+            },
+            {
+              "title": "Crop Debt Relief Scheme"
+            },
+            {
+              "title": "ATMA - Extension"
+            },
+            {
+              "title": "National Food Security"
+            },
+            {
+              "title": "RKVY-RAFTAAR"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {},
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

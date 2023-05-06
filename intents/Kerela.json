@@ -1,0 +1,148 @@
+{
+  "id": "af002baf-e553-4b25-a2cb-44808651cd47",
+  "parentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "rootParentId": "4d498483-4e4b-4885-947c-22f44cc2fc4c",
+  "name": "Kerela",
+  "auto": true,
+  "contexts": [
+    "Sche-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Sche.Sche-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9102f7c9-7ce9-4d10-9300-0d7f2a20e212",
+          "name": "states",
+          "required": false,
+          "dataType": "@States",
+          "value": "$states",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "feb66e00-be12-4af3-ad83-453e0869f40a",
+          "name": "states1",
+          "required": false,
+          "dataType": "@States",
+          "value": "$states1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ef6d45a5-f00b-4cf3-8a20-ea2efc8fe7f6",
+          "name": "soils",
+          "required": true,
+          "dataType": "@Soils",
+          "value": "$soils",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter the soil type of your region."
+            },
+            {
+              "lang": "en",
+              "value": "Soil Type in Kerela?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c61154b4-686c-434e-9ed2-b4340ffbf6e2",
+          "name": "Weather",
+          "required": true,
+          "dataType": "@Weather",
+          "value": "$Weather",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How\u0027s the weather"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c3199f51-7ea9-419d-ad56-5b0b2fa7c3cb",
+          "name": "Last_Irrigation",
+          "required": true,
+          "dataType": "@Last_Irrigation",
+          "value": "$Last_Irrigation",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "When was last time the farm was irrigated?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4423cfcd-256c-492c-94d5-64f52e53743c",
+          "name": "KerelaSchemes",
+          "required": true,
+          "dataType": "@KerelaSchemes",
+          "value": "$KerelaSchemes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Schemes in Kerela\n1. Development of Crops through Integrated Farming System Approach\n2. Kerala State Horticultural Products Development\n3.Assistance to Kerala State Warehousing Corporation\n4. Kerala Farm- Fresh Pazham Pachakkari base price"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

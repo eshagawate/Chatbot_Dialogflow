@@ -1,0 +1,32 @@
+[
+  {
+    "value": "Rainy",
+    "synonyms": [
+      "Rainy"
+    ]
+  },
+  {
+    "value": "Sunny",
+    "synonyms": [
+      "Sunny"
+    ]
+  },
+  {
+    "value": "Chilly",
+    "synonyms": [
+      "Chilly"
+    ]
+  },
+  {
+    "value": "Moist",
+    "synonyms": [
+      "Moist"
+    ]
+  },
+  {
+    "value": "Humid",
+    "synonyms": [
+      "Humid"
+    ]
+  }
+]

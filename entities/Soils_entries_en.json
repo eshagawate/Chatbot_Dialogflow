@@ -1,0 +1,38 @@
+[
+  {
+    "value": "Loamy",
+    "synonyms": [
+      "Loamy"
+    ]
+  },
+  {
+    "value": "Black",
+    "synonyms": [
+      "Black"
+    ]
+  },
+  {
+    "value": "Muddy",
+    "synonyms": [
+      "Muddy"
+    ]
+  },
+  {
+    "value": "Alluvial",
+    "synonyms": [
+      "Alluvial"
+    ]
+  },
+  {
+    "value": "Clayey",
+    "synonyms": [
+      "Clayey"
+    ]
+  },
+  {
+    "value": "Sandy",
+    "synonyms": [
+      "Sandy"
+    ]
+  }
+]
